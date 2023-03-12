@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/nexocom_interfaz/static/js/main.db997ecc.js",
+    "main.js": "/nexocom_interfaz/static/js/main.75f04d32.js",
     "static/media/slide.png": "/nexocom_interfaz/static/media/slide.502a37342d16705236f8.png",
     "static/media/calificaciones.png": "/nexocom_interfaz/static/media/calificaciones.ad553653e10c929d6d4a.png",
     "static/media/estrechandomanos.png": "/nexocom_interfaz/static/media/estrechandomanos.6ced6fc5afb66d3aaca1.png",
     "index.html": "/nexocom_interfaz/index.html",
-    "main.db997ecc.js.map": "/nexocom_interfaz/static/js/main.db997ecc.js.map"
+    "main.75f04d32.js.map": "/nexocom_interfaz/static/js/main.75f04d32.js.map"
   },
   "entrypoints": [
-    "static/js/main.db997ecc.js"
+    "static/js/main.75f04d32.js"
   ]
 }
