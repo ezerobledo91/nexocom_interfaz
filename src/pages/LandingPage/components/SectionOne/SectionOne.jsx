@@ -29,8 +29,12 @@ const SectionOne = () => {
           justifyContent='space-between'
           alignItems={{ xs: 'center', sm: 'center' }}
           py={{ xs: 6, sm: 6 }}
+          sx={{
+            maxWidth: { xs: '100%', sm: '1200px' }, // Establecer un ancho máximo en diferentes resoluciones de pantalla
+            margin: '0 auto', // Centrar el componente horizontalmente
+          }}
         >
-          <Stack maxWidth={{ xs: '100%', sm: '550px' }}>
+          <Stack maxWidth={{ xs: '100%', sm: '550px' }} flexShrink={1}>
             <Divider />
             <Typography variant='h4' sx={{ fontWeight: 'bold' }} color='primary' gutterBottom>
               Conecta y crece
@@ -47,7 +51,10 @@ const SectionOne = () => {
               animate={{ opacity: inView ? 1 : 0 }}
               transition={{ duration: 2 }}
               src={imgSection}
-              width='450px'
+              style={{
+                width: '100%',
+                maxWidth: { xs: '100%', sm: '450px' },
+              }}
               alt='aplicacion-imagen-section'
             />
           </Box>
@@ -57,6 +64,10 @@ const SectionOne = () => {
           justifyContent='space-between'
           alignItems={{ xs: 'center', sm: 'center' }}
           py={{ xs: 6, sm: 6 }}
+          sx={{
+            maxWidth: { xs: '100%', sm: '1200px' }, // Establecer un ancho máximo en diferentes resoluciones de pantalla
+            margin: '0 auto', // Centrar el componente horizontalmente
+          }}
         >
           <Box py={{ xs: 6, sm: 0 }}>
             <motion.img
@@ -64,11 +75,14 @@ const SectionOne = () => {
               animate={{ opacity: inView ? 1 : 0 }}
               transition={{ duration: 2 }}
               src={imgSection2}
-              width='450px'
+              style={{
+                width: '100%',
+                maxWidth: { xs: '100%', sm: '450px' },
+              }}
               alt='aplicacion-imagen-section'
             />
           </Box>
-          <Stack maxWidth={{ xs: '100%', sm: '550px' }}>
+          <Stack maxWidth={{ xs: '100%', sm: '550px' }} flexShrink={1}>
             <Divider />
             <Typography variant='h4' sx={{ fontWeight: 'bold' }} color='primary' gutterBottom>
               Descubre una forma más eficiente de hacer negocios
