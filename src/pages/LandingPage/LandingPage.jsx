@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar'
 import DividerCount from './components/DividerCount/DividerCount'
 import Footer from './components/Fotter/Fotter'
 import SectionOne from './components/SectionOne/SectionOne'
+import SectionTwo from './components/SectionTwo/SectionTwo'
+
 import Slider from './components/Slider/Slider'
 
 const LandingPage = () => {
@@ -13,6 +15,7 @@ const LandingPage = () => {
       <Slider />
       <DividerCount />
       <SectionOne />
+      <SectionTwo/>
       <Footer />
     </Box>
   )
